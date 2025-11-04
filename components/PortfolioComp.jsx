@@ -48,7 +48,7 @@ export default function PortfolioComp() {
             className="flex flex-col gap-5 max-sm:flex-col-reverse
             lg:flex-row lg:justify-center lg:items-center"
           >
-            <p className="leading-7">
+            <div className="leading-7">
               في عالمٍ يتغير بسرعة لم تعد الشركات هي من تصنع القرار وحدها بل
               أصبح صوت العميل هو المحرك الحقيقي للتطور و التميز فكُل تجربة
               يعيشها و يشعر بها العميل, و كل كلمة يعبّر بها هي مفتاح لتحسين
@@ -58,7 +58,7 @@ export default function PortfolioComp() {
                 في صندوق الملاحظات بل هو صوت التجربة الذي يقود كل مؤسسة لنحو
                 أفضل
               </p>
-            </p>
+            </div>
           </div>
         </div>
       </article>
@@ -73,18 +73,17 @@ export default function PortfolioComp() {
     fill
     src="/perfum.webp"
     alt="صورة العطر"
-    loading="lazy"   
+    loading="eager"   
     sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
   />
 </div>
-        <p className="arabic-text leading-7">
+        <div className="arabic-text leading-7">
           هل تبحث عن عطر يجمع بين الطابع الراقي واليومي ؟ 
           <p>
-
           عطر بولاريس .. عطر
           للجنسين المميز بمكوناته بنفحات البخور و التونكا
           </p>
-        </p>
+        </div>
       </article>
 
       {/* النصوص الخاصة بالمنصات */}
@@ -132,3 +131,4 @@ export default function PortfolioComp() {
     </div>
   );
 }
+

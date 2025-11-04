@@ -21,13 +21,14 @@ const changa = Changa({
 export const metadata = {
   title: "Asrar Marair",
   description: "Personal Portfolio",
-  icons: [{ rel: "icon", url: "favicon.icon",  sizes: "128 x 128"  }],
+  icons: [{ rel: "icon", url: "/favicon.ico", sizes: "128x128" }],
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
+        suppressHydrationWarning
         className={`${geistSans.variable} ${geistMono.variable} antialiased ${changa.className}`}
       >
        
