@@ -24,19 +24,31 @@ export default function PortfolioComp() {
         </p>
       </div>
       {/* كتابة المحتوى */}
+      <div>
+        <h2 className="text-2xl text-gray-800 leading-10 font-bold">
+نص محتوى (لبيع خدمة) 
+
+        </h2>
       <p className="arabic-text leading-7">
         في عالم يمضي بسرعة نؤمن أن صوتك هو ما يوجّهنا نحو الأفضل فَكُل خدمة
         نقدمها أساسها يبدأ بك … و ينتهي برأيك إننا نستمع إليك لنتعلم منك و نطور
         من أجلك , في كل مرة , و مع كل تجربة فنحن لا نقدم خدمة فقط , نحن نبني
         علاقة تبدأ بثقتك
       </p>
+      </div>
 
       {/* مقال */}
+      <div>
+
+      <h2 className="text-2xl text-gray-800 leading-10 font-bold">
+      نص محتوى عطر ( يسوق لِشعور)
+      </h2>
       <p className="arabic-text leading-7">
         ليست رائحة بل ذاكرة عطر ميلسان رائحة تُحفر في الذاكرة لمسة خفيفة من
         الماضي ، تمتزج بالحاضر و تبقى حين يُلامس بشرتك ، كأنه يعيد ترتيب تفاصيلك
         في كل نفحة وعدٌ بالعودة إلى زمنٍ لم يغادر القلب أبداً
       </p>
+      </div>
 
       {/* أهمية رأي العميل */}
       <article className="arabic-text leading-7">
@@ -89,20 +101,25 @@ export default function PortfolioComp() {
       <div className="flex flex-col gap-5">
         <p className="arabic-text leading-7 flex flex-col gap-1">
           <strong>منصة الانتسغرام</strong>
-          تألق بمجموعة الشتاء الفاخرة التي تمتاز بطابع الفخامة والأناقة...
+          تألق بمجموعة الشتاء الفاخرة التي تمتاز بطابع الفخامة والأناقة
         </p>
 
         <p className="arabic-text leading-7 flex flex-col gap-1">
           <strong>منصة أكس</strong>
-          لأيام ليالي الشتاء الباردة حيث تصنع الذكريات الجميلة...
+          لأيام ليالي الشتاء الباردة حيث تصنع الذكريات الجميلة
         </p>
       </div>
 
       {/* الصور الإضافية */}
+      <div>
+           <h2 className="text-xl my-3 text-gray-800 leading-10 font-semibold">
+          بعض النصوص اللتي شاركتها مع ملتقى الأدباء في كتاب يجمع مئة كاتب كان بعنوان اقلام نابضة 
+        </h2>
       <div
         className="flex flex-col items-center gap-5
                 md:flex-row lg:justify-center"
       >
+     
         <div
           className="img rounded-md relative w-full h-[300px] overflow-hidden
                   md:w-full md:h-[350px] lg:w-[450px] lg:h-[400px]"
@@ -125,6 +142,7 @@ export default function PortfolioComp() {
             sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
           />
         </div>
+      </div>
       </div>
       <Footer/>
     </div>
