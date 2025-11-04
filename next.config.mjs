@@ -1,6 +1,9 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  /* config options here */
+  images: {
+    // Ensures images work on static hosts/CDNs without Next's optimizer
+    unoptimized: true,
+  },
 };
 
 export default nextConfig;

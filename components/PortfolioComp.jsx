@@ -69,6 +69,8 @@ export default function PortfolioComp() {
   src="/perfum.webp"
   alt="صورة العطر"
   loading="eager"
+  priority
+  unoptimized
   width={450}   // base width for large screens
   height={400}  // base height for large screens
   className="w-full h-[300px] md:w-[350px] md:h-[350px] lg:w-[450px] lg:h-[400px] rounded-md object-cover overflow-hidden shrink-0"
