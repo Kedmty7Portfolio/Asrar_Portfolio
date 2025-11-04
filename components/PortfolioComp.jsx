@@ -65,18 +65,15 @@ export default function PortfolioComp() {
 
       {/* قسم العطر + الصورة */}
       <article className="flex flex-col lg:justify-end md:flex-row gap-5">
-       <div
-  className="img rounded-md relative w-full h-[300px] overflow-hidden
-    md:w-[350px] md:h-[350px] lg:w-[450px] lg:h-[400px] shrink-0"
->
-  <Image
-    fill
-    src="/perfum.webp"
-    alt="صورة العطر"
-    loading="eager"   
-    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-  />
-</div>
+       <Image
+  src="/perfum.webp"
+  alt="صورة العطر"
+  loading="eager"
+  width={450}   // base width for large screens
+  height={400}  // base height for large screens
+  className="w-full h-[300px] md:w-[350px] md:h-[350px] lg:w-[450px] lg:h-[400px] rounded-md object-cover overflow-hidden shrink-0"
+  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+/>
         <div className="arabic-text leading-7">
           هل تبحث عن عطر يجمع بين الطابع الراقي واليومي ؟ 
           <p>
