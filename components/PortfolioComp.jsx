@@ -26,35 +26,37 @@ export default function PortfolioComp() {
       {/* كتابة المحتوى */}
       <div>
         <h2 className="text-2xl text-gray-800 leading-10 font-bold">
-نص محتوى (لبيع خدمة) 
-
+          نص محتوى (لبيع خدمة)
         </h2>
-      <p className="arabic-text leading-7">
-        في عالم يمضي بسرعة نؤمن أن صوتك هو ما يوجّهنا نحو الأفضل فَكُل خدمة
-        نقدمها أساسها يبدأ بك … و ينتهي برأيك إننا نستمع إليك لنتعلم منك و نطور
-        من أجلك , في كل مرة , و مع كل تجربة فنحن لا نقدم خدمة فقط , نحن نبني
-        علاقة تبدأ بثقتك
-      </p>
+        <p className="arabic-text leading-7">
+          في عالم يمضي بسرعة نؤمن أن صوتك هو ما يوجّهنا نحو الأفضل فَكُل خدمة
+          نقدمها أساسها يبدأ بك … و ينتهي برأيك إننا نستمع إليك لنتعلم منك و
+          نطور من أجلك , في كل مرة , و مع كل تجربة فنحن لا نقدم خدمة فقط , نحن
+          نبني علاقة تبدأ بثقتك
+        </p>
       </div>
 
       {/* مقال */}
       <div>
+        <h2 className="text-2xl text-gray-800 leading-10 font-bold">
+          نص محتوى عطر ( يسوق لِشعور)
+        </h2>
+        <h2 className="text-xl text-gray-800 leading-10 font-medium">
 
-      <h2 className="text-2xl text-gray-800 leading-10 font-bold">
-      نص محتوى عطر ( يسوق لِشعور)
-      </h2>
-      <p className="arabic-text leading-7">
-        ليست رائحة بل ذاكرة عطر ميلسان رائحة تُحفر في الذاكرة لمسة خفيفة من
-        الماضي ، تمتزج بالحاضر و تبقى حين يُلامس بشرتك ، كأنه يعيد ترتيب تفاصيلك
-        في كل نفحة وعدٌ بالعودة إلى زمنٍ لم يغادر القلب أبداً
-      </p>
+          ليست رائحة بل ذاكرة
+        </h2>
+        <p className="arabic-text leading-7">
+           عطر ميلسان رائحة تُحفر في الذاكرة لمسة خفيفة من
+          الماضي ، تمتزج بالحاضر و تبقى حين يُلامس بشرتك ، كأنه يعيد ترتيب
+          تفاصيلك في كل نفحة وعدٌ بالعودة إلى زمنٍ لم يغادر القلب أبداً
+        </p>
       </div>
 
       {/* أهمية رأي العميل */}
       <article className="arabic-text leading-7">
         <div>
           <h2 className="text-2xl text-gray-800 leading-10 font-bold">
-            أهمية رأي العميل
+            مقالة بعنوان " أهمية رأي العميل"
           </h2>
           <div
             className="flex flex-col gap-5 max-sm:flex-col-reverse
@@ -64,8 +66,31 @@ export default function PortfolioComp() {
               في عالمٍ يتغير بسرعة لم تعد الشركات هي من تصنع القرار وحدها بل
               أصبح صوت العميل هو المحرك الحقيقي للتطور و التميز فكُل تجربة
               يعيشها و يشعر بها العميل, و كل كلمة يعبّر بها هي مفتاح لتحسين
-              الخدمة و بناء الثقة التي تدوم...
-              <p className="leading-7">
+              الخدمة و بناء الثقة التي تدوم العميل هو الشريك الشريك الصامت في
+              النجاح لم يعد العميل مجرد شخص متلقٍ للخدمة أو المنتج بل اصبح
+              شريكاً حقيقياً في رحلة النمو بل عنصر مهم لرتقائك فكل ملاحظة او رأي
+              يقدمة هو نافذة تُظهر لك نقاط قوتك و ضعفك و إشارة تنبهك الى ما
+              يحتاج الى تطوير …فالشركات الذكية هي التي تصغي و يكون جوهرها و
+              رسالتها التطور من خلال العميل و يمكننا ان نرى أمثلة عن سقوط بعض
+              الشركات لم تَعِر رأي عملائها الكفاية
+              <h2 className="text-xl text-gray-800 leading-10 font-bold">
+                لماذا رأي العميل مهم
+              </h2>
+              <ul dir="rtl" className="mr-5 flex flex-col justify-end gap-2 list-disc">
+                <li>
+                  يبني الثقة : عندما يشعر العميل بأن صوته مسموع تتضاعف ثقتة
+                  بالعلامة التجارية
+                </li>
+                <li>
+                  يطور الخدمات : تكشف التفاصيل الصغيرة التي من شأنها ان تصنع
+                  الفرق
+                </li>
+                <li>
+                  يخلق الولاء : العميل الذي يرى أثر رأيه يتحول من عميل عابر الى
+                  عميل دائم
+                </li>
+              </ul>
+              <p className="leading-7 my-3">
                 الخلاصة .. رأي العميل ليس مجرد رقم في استبيان ولا تعليقًا عابرًا
                 في صندوق الملاحظات بل هو صوت التجربة الذي يقود كل مؤسسة لنحو
                 أفضل
@@ -77,22 +102,21 @@ export default function PortfolioComp() {
 
       {/* قسم العطر + الصورة */}
       <article className="flex flex-col lg:justify-end md:flex-row gap-5">
-       <Image
-  src="/perfum.webp"
-  alt="صورة العطر"
-  loading="eager"
-  priority
-  unoptimized
-  width={450}   // base width for large screens
-  height={400}  // base height for large screens
-  className="w-full h-[300px] md:w-[350px] md:h-[350px] lg:w-[450px] lg:h-[400px] rounded-md object-cover overflow-hidden shrink-0"
-  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-/>
+        <Image
+          src="/perfum.webp"
+          alt="صورة العطر"
+          loading="eager"
+          priority
+          unoptimized
+          width={450} // base width for large screens
+          height={400} // base height for large screens
+          className="w-full h-[300px] md:w-[350px] md:h-[350px] lg:w-[450px] lg:h-[400px] rounded-md object-cover overflow-hidden shrink-0"
+          sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+        />
         <div className="arabic-text leading-7">
-          هل تبحث عن عطر يجمع بين الطابع الراقي واليومي ؟ 
+          هل تبحث عن عطر يجمع بين الطابع الراقي واليومي ؟
           <p>
-          عطر بولاريس .. عطر
-          للجنسين المميز بمكوناته بنفحات البخور و التونكا
+            عطر بولاريس .. عطر للجنسين المميز بمكوناته بنفحات البخور و التونكا
           </p>
         </div>
       </article>
@@ -112,40 +136,39 @@ export default function PortfolioComp() {
 
       {/* الصور الإضافية */}
       <div>
-           <h2 className="text-xl my-3 text-gray-800 leading-10 font-semibold">
-          بعض النصوص اللتي شاركتها مع ملتقى الأدباء في كتاب يجمع مئة كاتب كان بعنوان اقلام نابضة 
+        <h2 className="text-xl my-3 text-gray-800 leading-10 font-semibold">
+          بعض النصوص اللتي شاركتها مع ملتقى الأدباء في كتاب يجمع مئة كاتب كان
+          بعنوان اقلام نابضة
         </h2>
-      <div
-        className="flex flex-col items-center gap-5
+        <div
+          className="flex flex-col items-center gap-5
                 md:flex-row lg:justify-center"
-      >
-     
-        <div
-          className="img rounded-md relative w-full h-[300px] overflow-hidden
-                  md:w-full md:h-[350px] lg:w-[450px] lg:h-[400px]"
         >
-          <Image
-            fill
-            src="/content.jpg"
-            alt="صورة محتوى 1"
-            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-          />
-        </div>
-        <div
-          className="img rounded-md relative w-full h-[300px] overflow-hidden
+          <div
+            className="img rounded-md relative w-full h-[300px] overflow-hidden
                   md:w-full md:h-[350px] lg:w-[450px] lg:h-[400px]"
-        >
-          <Image
-            fill
-            src="/content2.jpg"
-            alt="صورة محتوى 2"
-            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-          />
+          >
+            <Image
+              fill
+              src="/content.jpg"
+              alt="صورة محتوى 1"
+              sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+            />
+          </div>
+          <div
+            className="img rounded-md relative w-full h-[300px] overflow-hidden
+                  md:w-full md:h-[350px] lg:w-[450px] lg:h-[400px]"
+          >
+            <Image
+              fill
+              src="/content2.jpg"
+              alt="صورة محتوى 2"
+              sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+            />
+          </div>
         </div>
       </div>
-      </div>
-      <Footer/>
+      <Footer />
     </div>
   );
 }
-
